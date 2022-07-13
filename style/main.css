@@ -1,0 +1,140 @@
+:root { /* Declarar variaveis no HTML */
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Não deixar os elementos sairem da caixa */
+}
+
+/* Elementos base */
+
+body {
+    background: var(--preta); /* var para utilizar a variavel () cor preta dentro */
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Alinha de maneira vertical */
+    justify-content: space-between; /* distancia entre os elementos */
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* Filme principal */
+
+.filme-principal {
+    font-size: 16;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-suits.jpg'); /* linear-gradient para escurecer um pouco a imagem, como se fosse uma pelicula (camada) */
+
+    height: 400px; /* Aumentar o tamanho da caixa (para a imagem) */
+    background-size:cover; /* Especificar o tamanho da imagem no background: cover para pegar o tamanho da caixa */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
+.videotrai {
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
+.titulo2 {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.logo2 {
+    margin-top: 120px;
+    margin-right: 25px;
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 55px;
+    text-align: right;
+}
+
+figure { 
+    width: 90%; 
+    min-width: 320px; 
+    margin:0 auto;
+
+}
+video {
+    width: 100%;
+    height: auto;
+}
