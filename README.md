@@ -1,15 +1,15 @@
 # PBFLIX :cinema:
-* Exercicio da DIO: Clone Interface da NETFLIX
-  * Apesar da vídeo aula ajudar bastante, aprendi muita coisa, prestei atenção aos detalhes e entendi a importancia de fazer um site responsivo. 
+* Exercício da DIO: Clone Interface da NETFLIX
+  * Apesar da vídeo aula ajudar bastante, aprendi muita coisa, prestei atenção aos detalhes e entendi a importância de fazer um site responsivo. 
   * Colocando em pratica todo o conhecimento adquirido nessa aula, nos meus projetos presentes e futuros.
-  * Aprendi a declarar variaveis em HTML (hoje em dia já é possível)
+  * Aprendi a declarar variáveis em HTML (hoje em dia já é possível)
   * Entendimento melhor sobre: header, container, porcentagem, px etc...
 ## Sobre a Interface:
 * Responsivo;
-* Carrosel para passar e visualizar os filmes e séries;
-* Aparencia elegante;
+*	Carrossel para passar e visualizar os filmes e séries;
+* Aparência elegante;
 * Titulo, textos, imagens, vídeo;
-* Links, estilos e escript;
+* Links, estilos e script;
 * Botões (apenas o trailer tem atividade);
 * Outros.
 
