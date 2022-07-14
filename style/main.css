@@ -45,7 +45,7 @@ header nav a:hover {
 
 .filme-principal {
     font-size: 16;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-suits.jpg'); /* linear-gradient para escurecer um pouco a imagem, como se fosse uma pelicula (camada) */
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-suits.jpg'); /* linear-gradient para escurecer um pouco a imagem, como se fosse uma pelicula (camada) */
 
     height: 400px; /* Aumentar o tamanho da caixa (para a imagem) */
     background-size:cover; /* Especificar o tamanho da imagem no background: cover para pegar o tamanho da caixa */
